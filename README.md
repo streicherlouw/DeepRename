@@ -9,8 +9,8 @@ In the early 2010s, I decided to embark on a scanning project to digitise my fam
 While the scanners that I used for the project automatically applied exposure correction and dust removal, the process left me with 16 000 images that needed to be rotated manually.
 
 After rotating a few hundred of the images by hand and almost dying of boredom, I decided to simply archive the scans and wait for a future where either:
-I had the time to rotate them manually, or
-technology had advanced to a point where a computer could do it for me.
+- I had the time to rotate them manually, or
+- technology had advanced to a point where a computer could do it for me.
 
 Fast forward to 2020, and both of these futures arrived at once. When the first Australian corona-virus lockdown descended upon Melbourne in late 2020, I suddenly had some indoor time to spare, and I decided to take an online course in AI programming.
 
