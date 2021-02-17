@@ -1,6 +1,6 @@
 # What DeepRename does
 
-DeepRename is a deep-learning-based file renamer that uses the fast.ai library to train and use a neural network to rename images files based on their contents.
+DeepRename is a deep-learning-based file renamer that uses the FastAi library to train and use a neural network to rename images files based on their contents.
 
 # Why I wrote DeepRename
 
@@ -26,6 +26,7 @@ As the program will use the training data directory names as data labels, it is 
 
 A training directory structure configured as below will create training labels "000", "090", "180" and "270", resulting in an input file called "1234.jpg" being renamed "090_1234.jpg" if it is judged to resemble the images in training directory "090". 
 
+```
 .fastai
 └── data 
     └── familyphotos_small 
@@ -33,6 +34,7 @@ A training directory structure configured as below will create training labels "
         ├── 090
         ├── 180
         └── 270
+ ```
 
 The only options you really need to set in the program is the training directory root path in variable "path", the learning rate in variable "base_lr", and the directory containing the files in need of renaming in variable "directory_in_str"
 
