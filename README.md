@@ -36,7 +36,7 @@ A training directory structure configured as below will create training labels "
         └── 270
  ```
 
-The only options you really need to set in the program is the training directory root path in variable "path", the learning rate in variable "base_lr", and the directory containing the files in need of renaming in variable "directory_in_str"
+The only options you really need to set in the program is the training directory root path in variable `path`, the learning rate in variable `base_lr`, and the directory containing the files in need of renaming in variable `directory_in_str`. Furthermore, if you plan to use DeepRename for any task other than rotation detection, replace the datablock image transform option `item_tfms=RandomResizedCrop(224,min_scale=0.5)` with option `item_tfms=aug_transforms(224,min_scale=0.5)`.
 
 # How DeepRename works
 
