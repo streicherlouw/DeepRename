@@ -40,4 +40,4 @@ The only options you really need to set in the program is the training directory
 
 # How DeepRename works
 
-If you are interested in the inner workings of the DeepRename code and the thoughts that went into designing it, I would like to invite you to read an article I wrote about the creation of this tool for the online journal Towards Data Science.
+If you are interested in the inner workings of the DeepRename code and the thoughts that went into designing it, I would like to invite you to read an [article](https://towardsdatascience.com/photo-finish-building-an-ai-at-home-2888d54776eb) I wrote about the creation of this tool for the online journal [Towards Data Science](https://towardsdatascience.com/).
